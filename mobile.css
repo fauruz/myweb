@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .head a:not(:first-child) {display: none;}
+    .head a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .head.responsive {position: relative;}
+    .head.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .head.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .content.card{
+        width: 100%;
+    }
+  }
